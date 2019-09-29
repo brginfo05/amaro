@@ -1,4 +1,6 @@
 # Amaro
+The project was built using spring boot.
+
 Api documentation
 http://localhost:8080/swagger-ui.html
 
