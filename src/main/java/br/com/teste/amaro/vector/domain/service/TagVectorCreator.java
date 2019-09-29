@@ -1,6 +1,6 @@
-package br.com.teste.vector.domain.service;
+package br.com.teste.amaro.vector.domain.service;
 
-import br.com.teste.vector.domain.model.Tag;
+import br.com.teste.amaro.vector.domain.model.Tag;
 import java.util.Collection;
 import org.apache.commons.lang3.Validate;
 import org.springframework.stereotype.Service;

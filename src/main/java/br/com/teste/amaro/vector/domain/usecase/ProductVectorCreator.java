@@ -1,7 +1,7 @@
-package br.com.teste.vector.domain.usecase;
+package br.com.teste.amaro.vector.domain.usecase;
 
-import br.com.teste.vector.domain.repository.Tags;
-import br.com.teste.vector.domain.service.TagVectorCreator;
+import br.com.teste.amaro.vector.domain.service.TagVectorCreator;
+import br.com.teste.amaro.vector.domain.repository.Tags;
 import java.util.Collection;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 
 /**
  * Use case to create a tag vector
- * @see br.com.teste.vector.domain.service.TagVectorCreator
+ * @see TagVectorCreator
  */
 @Service
 public class ProductVectorCreator {

@@ -1,8 +1,8 @@
-package br.com.teste.vector.domain.service;
+package br.com.teste.amaro.vector.domain.service;
 
 import static org.junit.Assert.assertThat;
 
-import br.com.teste.vector.domain.model.Tag;
+import br.com.teste.amaro.vector.domain.model.Tag;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;

@@ -1,8 +1,9 @@
-package br.com.teste.vector.ui.controller;
+package br.com.teste.amaro.vector.ui.controller;
 
-import br.com.teste.vector.domain.usecase.ProductVectorCreator;
-import br.com.teste.vector.ui.model.ProductViewModel;
-import br.com.teste.vector.ui.model.VectorViewModel;
+import br.com.teste.amaro.vector.domain.service.TagVectorCreator;
+import br.com.teste.amaro.vector.ui.model.ProductViewModel;
+import br.com.teste.amaro.vector.ui.model.VectorViewModel;
+import br.com.teste.amaro.vector.domain.usecase.ProductVectorCreator;
 import java.util.List;
 import java.util.stream.Collectors;
 import javax.validation.Valid;
@@ -14,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * Api to create a tag vector
- * @see br.com.teste.vector.domain.service.TagVectorCreator
+ * @see TagVectorCreator
  */
 @RestController
 @RequestMapping("product-vector")

@@ -1,6 +1,6 @@
-package br.com.teste.vector.domain.repository;
+package br.com.teste.amaro.vector.domain.repository;
 
-import br.com.teste.vector.domain.model.Tag;
+import br.com.teste.amaro.vector.domain.model.Tag;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;

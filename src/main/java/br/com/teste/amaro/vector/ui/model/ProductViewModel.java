@@ -1,4 +1,4 @@
-package br.com.teste.vector.ui.model;
+package br.com.teste.amaro.vector.ui.model;
 
 import java.util.List;
 import javax.validation.constraints.NotEmpty;

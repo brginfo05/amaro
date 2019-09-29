@@ -1,4 +1,4 @@
-package br.com.teste;
+package br.com.teste.amaro;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

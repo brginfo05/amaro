@@ -1,6 +1,4 @@
-package br.com.teste.vector.domain.model;
-
-import static org.junit.Assert.*;
+package br.com.teste.amaro.vector.domain.model;
 
 import org.junit.Rule;
 import org.junit.Test;

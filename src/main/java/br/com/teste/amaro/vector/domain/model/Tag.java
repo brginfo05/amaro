@@ -1,4 +1,4 @@
-package br.com.teste.vector.domain.model;
+package br.com.teste.amaro.vector.domain.model;
 
 import org.apache.commons.lang3.Validate;
 

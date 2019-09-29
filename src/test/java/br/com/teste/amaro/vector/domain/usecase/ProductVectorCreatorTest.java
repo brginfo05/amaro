@@ -1,4 +1,4 @@
-package br.com.teste.vector.domain.usecase;
+package br.com.teste.amaro.vector.domain.usecase;
 
 import static org.junit.Assert.assertThat;
 
