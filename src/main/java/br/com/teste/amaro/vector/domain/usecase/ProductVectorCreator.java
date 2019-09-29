@@ -8,8 +8,14 @@ import org.springframework.stereotype.Service;
 
 
 /**
- * Use case that creates a tag vector
- * @see TagVectorCreator
+ * <p>Use case that creates a tag vector
+ * <p>A tag vector is an array where each position corresponds to
+ * a characteristic and has a value equal to 1 if the product has the characteristic, otherwise the value is
+ * equal to zero.</p>
+ *
+ * <p><strong>Ex:</strong> If the product has only the characteristics "neutral" (index 0), "veludo" (index 1) and
+ * "balada" (index 9), its tag vector will be:
+ * (1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0)
  */
 @Service
 public class ProductVectorCreator {

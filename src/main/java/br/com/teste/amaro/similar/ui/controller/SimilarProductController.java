@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * Api to calculate similarity between products
- * @see br.com.teste.amaro.similar.domain.service.SimilarityCalculator
+ * @see ProductSimilarityCalculator
  */
 @RestController
 @RequestMapping("similar-product")

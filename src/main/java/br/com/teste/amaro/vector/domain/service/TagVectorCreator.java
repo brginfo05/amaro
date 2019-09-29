@@ -6,13 +6,7 @@ import org.apache.commons.lang3.Validate;
 import org.springframework.stereotype.Service;
 
 /**
- * <p>A tag vector is an array where each position corresponds to
- * a characteristic and has a value equal to 1 if the product has the characteristic, otherwise the value is
- * equal to zero.</p>
- *
- * <p><strong>Ex:</strong> If the product has only the characteristics "neutral" (index 0), "veludo" (index 1) and
- * "balada" (index 9), its tag vector will be:
- * (1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0)
+ * @see br.com.teste.amaro.vector.domain.usecase.ProductVectorCreator
  */
 @Service
 public class TagVectorCreator {
