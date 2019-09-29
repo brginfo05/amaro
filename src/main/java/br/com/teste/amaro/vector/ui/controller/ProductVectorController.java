@@ -4,6 +4,8 @@ import br.com.teste.amaro.vector.domain.service.TagVectorCreator;
 import br.com.teste.amaro.vector.ui.model.ProductViewModel;
 import br.com.teste.amaro.vector.ui.model.VectorViewModel;
 import br.com.teste.amaro.vector.domain.usecase.ProductVectorCreator;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import java.util.List;
 import java.util.stream.Collectors;
 import javax.validation.Valid;
@@ -17,6 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
  * Api to create a tag vector
  * @see TagVectorCreator
  */
+@Api(tags = "Products Vector")
 @RestController
 @RequestMapping("/v1/products/vector")
 public class ProductVectorController {
@@ -28,6 +31,7 @@ public class ProductVectorController {
     this.productVectorCreator = productVectorCreator;
   }
 
+  @ApiOperation(value = "Creates a tag vector")
   @PostMapping
   public List<VectorViewModel> vector(@Valid @RequestBody List<ProductViewModel> products) {
     return products

@@ -35,10 +35,23 @@
       <groupId>org.springframework.boot</groupId>
       <scope>test</scope>
     </dependency>
+
     <dependency>
       <artifactId>commons-lang3</artifactId>
       <groupId>org.apache.commons</groupId>
       <version>3.9</version>
+    </dependency>
+
+    <dependency>
+      <groupId>io.springfox</groupId>
+      <artifactId>springfox-swagger2</artifactId>
+      <version>2.9.2</version>
+    </dependency>
+
+    <dependency>
+      <groupId>io.springfox</groupId>
+      <artifactId>springfox-swagger-ui</artifactId>
+      <version>2.9.2</version>
     </dependency>
   </dependencies>
 

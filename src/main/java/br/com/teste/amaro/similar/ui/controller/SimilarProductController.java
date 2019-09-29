@@ -5,6 +5,8 @@ import br.com.teste.amaro.similar.domain.model.Similar;
 import br.com.teste.amaro.similar.domain.usecase.ProductSimilarityCalculator;
 import br.com.teste.amaro.similar.ui.model.SearchViewModel;
 import br.com.teste.amaro.similar.ui.model.SimilarViewModel;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import java.util.List;
 import java.util.stream.Collectors;
 import javax.validation.Valid;
@@ -19,6 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
  * Api to calculate similarity between products
  * @see ProductSimilarityCalculator
  */
+@Api(tags = "Similar Products")
 @RestController
 @RequestMapping("/v1/products/similar")
 public class SimilarProductController {
@@ -30,6 +33,7 @@ public class SimilarProductController {
     this.productSimilarityCalculator = productSimilarityCalculator;
   }
 
+  @ApiOperation(value = "Calculate the similarity between products")
   @PostMapping
   public List<SimilarViewModel> similar(
       @Valid @RequestBody SearchViewModel searchViewModel) {

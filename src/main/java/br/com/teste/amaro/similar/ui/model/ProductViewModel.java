@@ -1,9 +1,11 @@
 package br.com.teste.amaro.similar.ui.model;
 
 import br.com.teste.amaro.similar.domain.model.Product;
+import io.swagger.annotations.ApiModel;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 
+@ApiModel(value = "ProductViewModel2")
 public class ProductViewModel {
 
   @NotNull

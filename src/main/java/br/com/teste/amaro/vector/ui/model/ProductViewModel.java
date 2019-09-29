@@ -8,7 +8,7 @@ public class ProductViewModel {
 
   @NotNull
   private Long id;
-  @NotNull
+  @NotEmpty
   private String name;
   @NotEmpty
   private List<String> tags;
