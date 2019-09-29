@@ -36,9 +36,8 @@ public class TagVectorCreatorTest {
     int[] vector = tagVectorCreator.create(5, tags);
 
     // Then
-    // It should match the expected vector with the created one
+    // The created vector should match the expected one
     assertThat(
-        "Vectors do not match",
         ArrayUtils.toObject(vector),
         Matchers.arrayContaining(expectedVector));
   }

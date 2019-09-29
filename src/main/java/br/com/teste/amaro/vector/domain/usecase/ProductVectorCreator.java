@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 
 /**
- * Use case to create a tag vector
+ * Use case that creates a tag vector
  * @see TagVectorCreator
  */
 @Service
