@@ -10,7 +10,7 @@
     <version>2.1.8.RELEASE</version>
     <relativePath/>
   </parent>
-  <groupId>br.com.teste</groupId>
+  <groupId>br.com.test</groupId>
   <artifactId>amaro</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>amaro</name>
