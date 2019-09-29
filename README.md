@@ -1,5 +1,6 @@
 # Amaro
 The project was built using spring boot.
+To it try out run the **dev.sh** script.
 
 ## Api documentation ##
 http://localhost:8080/swagger-ui.html
