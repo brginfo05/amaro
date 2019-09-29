@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @see TagVectorCreator
  */
 @RestController
-@RequestMapping("product-vector")
+@RequestMapping("/v1/products/vector")
 public class ProductVectorController {
 
   private ProductVectorCreator productVectorCreator;

@@ -11,6 +11,7 @@ import javax.validation.Valid;
 import org.apache.commons.lang3.tuple.Pair;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -19,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @see ProductSimilarityCalculator
  */
 @RestController
-@RequestMapping("similar-product")
+@RequestMapping("/v1/products/similar")
 public class SimilarProductController {
 
   private ProductSimilarityCalculator productSimilarityCalculator;
@@ -29,9 +30,9 @@ public class SimilarProductController {
     this.productSimilarityCalculator = productSimilarityCalculator;
   }
 
-  @PostMapping("/")
+  @PostMapping
   public List<SimilarViewModel> similar(
-      @Valid SearchViewModel searchViewModel) {
+      @Valid @RequestBody SearchViewModel searchViewModel) {
 
     Pair<Product, List<Product>> products = searchViewModel.toModel();
 
