@@ -11,3 +11,4 @@ The modules have the structure below:
 - Ui: Contains all the apis
 - Use case: Contains business use cases that are responsible to orchestrate the domain
 - Service: Small functions that represents business rules
+The arrow shows the dependency between layers
